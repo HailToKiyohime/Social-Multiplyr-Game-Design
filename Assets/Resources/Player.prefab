@@ -121,23 +121,6 @@ MonoBehaviour:
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &8719780878848860964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6209215176349671727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1846df5c5055ce4e8f89e63a9a19d77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 8719780878848860965}
-  pView: {fileID: 2725992252517220047}
-  speed: 6
-  turnSmoothTime: 0.1
-  gravity: -9.8
 --- !u!114 &6303254693236180483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,3 +154,20 @@ MonoBehaviour:
     InterpolateOption: 0
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 0
+--- !u!114 &8719780878848860964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6209215176349671727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1846df5c5055ce4e8f89e63a9a19d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 8719780878848860965}
+  pView: {fileID: 2725992252517220047}
+  speed: 6
+  turnSmoothTime: 0.1
+  gravity: -9.8
